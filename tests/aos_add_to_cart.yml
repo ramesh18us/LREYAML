@@ -1,8 +1,14 @@
-group:
-     group_name: "AOS_Cart"
-     vusers: '10'
-     script_id: 198
-     lg_name: "lg-1"
-scheduler:
-   rampup: '15'
-   Duration: '180'
+##################################################
+
+# Main test
+  group:
+    - group_name: "AOS"
+      vusers: '10'
+      script_id: 198
+      lg_name:
+      - "lg-1"
+  scheduler:
+     rampup: '15'
+     duration: '180'
+
+##################################################
